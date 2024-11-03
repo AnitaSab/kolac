@@ -1,0 +1,177 @@
+/* Osnovni stilovi */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0e6d6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: 500;
+    color: #b5651d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Stilizacija popisa */
+ul {
+    list-style: disc inside;
+    margin-left: 20px;
+    padding: 0;
+}
+
+ol {
+    list-style: decimal inside;
+    margin-left: 20px;
+    padding: 0;
+}
+
+/* Stilizacija elemenata unutar liste */
+li {
+    margin-bottom: 10px;
+}
+
+/* Složeni selektori */
+section h2 {
+    font-weight: 500;
+    color: #a0522d;
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Opći stil */
+section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Stil za paragraf s nagnutim slovima */
+.italic-text {
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* Tipografski stilovi */
+em {
+    font-style: italic;
+    color: #8b4513;
+}
+
+strong {
+    font-weight: bold;
+    color: #b5651d;
+}
+
+sub {
+    font-size: 0.8em;
+    vertical-align: sub;
+}
+
+sup {
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+/* Stil za oznaku span unutar teksta */
+span {
+    font-weight: bold;
+    color: #5e3d1e;
+}
+
+/* Stil za plutajući paragraf */
+.float-text {
+    float: right;
+    width: 97%; /* Širina elementa */
+    margin: 10px; /* Razmak oko plutajućeg teksta */
+}
+
+
+.highlight {
+    background-color: #f7d6b6;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Osnovni stilovi */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0e6d6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Kontakt forma stilizacija */
+form {
+    background-color: #fff8f0;
+    border: 1px solid #d4c5b8;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+    color: #a0522d;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #5e3d1e;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d4c5b8;
+    border-radius: 3px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #a0522d;
+    outline: none;
+    background-color: #f7e7d6;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #b5651d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #8b4513;
+}
+
+button:active {
+    background-color: #5e3d1e;
+}
